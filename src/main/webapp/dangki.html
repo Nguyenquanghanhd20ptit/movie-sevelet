@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+</head>
+<body>
+	<!-- Give Servlet reference to the form as an instances
+	GET and POST services can be according to the problem statement-->
+	<form action="dangki1" method="post">
+		<p>Username:</p>
+		<!-- Create an element with mandatory name attribute,
+		so that data can be transfer to the servlet using getParameter() -->
+		<input type="text" name="username"/>
+		<br/>
+		<p>Password:</p>
+		<input type="text" name="password"/>
+		
+		<p> hoten:</p> <br>
+		<input type="text" name="hoten"/>
+		<br/><br/><br/>
+		<input type="submit"/>
+	</form>
+</body>
+</html>
